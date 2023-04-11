@@ -67,3 +67,48 @@
 .fw-bold{
     font-weight: 600;
 }
+
+.c-top-game__item:nth-child(2)::before {
+    content: '';
+    background: url(https://bossnhacai.com/wp-content/uploads/2022/11/rank1.png);
+    width: 47px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: cover;
+}
+
+.c-top-game__item:nth-child(3)::before {
+    content: '';
+    background: url(https://bossnhacai.com/wp-content/uploads/2022/11/rank2.png);
+    width: 47px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: cover;
+}
+
+.c-top-game__item:nth-child(4)::before {
+    content: '';
+    background: url(https://bossnhacai.com/wp-content/uploads/2022/11/rank3.png);
+    width: 47px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: cover;
+}
+
+.c-top-game__item:nth-child(3)::before, .c-top-game__item:nth-child(2)::before, .c-top-game__item:nth-child(4)::before {
+    left: -5px;
+    top: -27px;
+    transform: none;
+}

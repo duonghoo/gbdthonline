@@ -3723,10 +3723,10 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #224fb8; }
 
 .text-red1 {
-  color: red; }
+  color: #dc2836; }
 
 .bg-red1 {
-  background-color: red; }
+  background-color: #dc2836; }
 
 .text-red2 {
   color: #f93f2d; }
@@ -4053,6 +4053,26 @@ a:hover {
   -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
 
+.p-top .c-top-header {
+  background-image: linear-gradient(260deg, #3D5472 0%, #23A455 80%);
+  padding: 10px 0 50px 0;
+  position: relative; }
+
+.p-top .c-top-header .img img {
+  width: 100%;
+  height: 58px; }
+
+.p-top {
+  margin-top: 60px; }
+
+.p-top .c-top-header .img {
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
 .showSubmenuMobile:active + .dropdown-content {
   display: block; }
 
@@ -4204,6 +4224,47 @@ a:hover {
     flex-basis: calc(100% / 2) !important; } }
 .fw-bold {
   font-weight: 600; }
+
+.c-top-game__item:nth-child(2)::before {
+  content: '';
+  background: url(https://bossnhacai.com/wp-content/uploads/2022/11/rank1.png);
+  width: 47px;
+  height: 40px;
+  position: absolute;
+  left: 5px;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  background-size: cover; }
+
+.c-top-game__item:nth-child(3)::before {
+  content: '';
+  background: url(https://bossnhacai.com/wp-content/uploads/2022/11/rank2.png);
+  width: 47px;
+  height: 40px;
+  position: absolute;
+  left: 5px;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  background-size: cover; }
+
+.c-top-game__item:nth-child(4)::before {
+  content: '';
+  background: url(https://bossnhacai.com/wp-content/uploads/2022/11/rank3.png);
+  width: 47px;
+  height: 40px;
+  position: absolute;
+  left: 5px;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  background-size: cover; }
+
+.c-top-game__item:nth-child(3)::before, .c-top-game__item:nth-child(2)::before, .c-top-game__item:nth-child(4)::before {
+  left: -5px;
+  top: -27px;
+  transform: none; }
 
 .rateit {
   -webkit-user-select: none;

@@ -126,7 +126,9 @@ $is_home = getCurrentController() == 'home';
 </head>
 <body>
 @include('web.header')
+
 @yield('content')
+
 @include('web.footer')
 
 <?php $popup = getBanner('popup-pc'); if ($popup):?>
