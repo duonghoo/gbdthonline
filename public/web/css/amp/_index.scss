@@ -1,0 +1,9 @@
+@import "rateit";
+@media only screen and (max-width: 767px){
+    .width-20{
+        flex-basis: calc(100% / 2) !important;
+    }
+}
+.fw-bold{
+    font-weight: 600;
+}

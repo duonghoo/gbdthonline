@@ -1,0 +1,34 @@
+.ads-container[data-loaded="0"] .banner-close{
+    display: none !important;
+}
+.ads-container{
+    img:not([src]){
+        visibility: hidden;
+    }
+}
+.catfish {
+    max-width: 600px;
+}
+.ads-container[data-loaded="0"] .banner-close{
+    display: none !important;
+}
+.ads-container{
+    img:not([src]){
+        visibility: hidden;
+    }
+}
+
+.catfish {
+    max-width: 600px;
+}
+.banner-wrap[data-position="catfish-pc"] {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 50%;
+}
+
+.banner-wrap[data-position="full-width-pc"] {
+    img {
+        width: 100%;
+    }
+}
